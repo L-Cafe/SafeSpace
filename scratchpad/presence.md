@@ -96,4 +96,35 @@ Operating in a similar manner to ultrasonic transceivers, these devices emit pul
 - Can be jammed by optically overloading the sensor with light.
 - Cannot be used to watch an entire room, only a single spot.
 
-## Glass break detectors
+## Acoustic glass break sensors
+
+Small devices glued to glass surfaces, very useful for street-level businesses with large display windows.
+
+### Advantages
+
+- Very easy to install: place and forget.
+- Simple circuitry, contain microphones that monitor for broken glass sounds.
+- Immune to any light or acoustic interference.
+
+### Disadvantages
+
+- Useless if the glass is carefully cut, not smashed.
+- Very easy to spot.
+- Could be triggered by playing loud broken glass sounds.
+- Useless for anything that's not a window, and practically useless for any use case except the lowest floors and shops.
+
+## Shock sensors
+
+Sometimes placed on glasses as glass break sensors too, they can also be found on doors, because some door locks are vulnerable to bumping techniques.
+
+### Advantages
+
+- Can protect doors and windows.
+- Most of them use tilt ball switches which are very easy to manufacture.
+- Very low power, as it requires no processing at all.
+
+### Disadvantages
+
+- Rendered useless if the intruder doesn't use the force.
+- Can be triggered by accidental hits or strong vibrations.
+- The stronger the door, and the more locks it has, the less vibrations it will transmit, so the sensor might not pick them up.
