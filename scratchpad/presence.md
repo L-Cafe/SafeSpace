@@ -1,4 +1,4 @@
-# Ideas for presence detection
+# Ideas for presence and intrusion detection
 
 There are multiple ways to detect presence, each with their own advantages and and shortcomings.
 
@@ -19,7 +19,7 @@ It's probably the most common presence sensor, and it's installed everywhere due
 - Calibrating them is somewhat difficult.
 - Might not respond well to quick movements.
 
-## Ultrasonic transcievers
+## Ultrasonic transceivers
 
 With a technology similar to sonar, these devices emit high frequency soundwaves with their special speaker, and listen for the echo with their microphone. These frequencies range from 18 kHz to 75 kHz, and are outside normal human hearing range.
 
@@ -63,5 +63,37 @@ These kind of sensors are found in parking garages, to avoid the door from closi
 ### Advantages
 
 - Very simple mechanism: Light is emitted from a device. If the other device receives light, then it's safe to determine nothing is between both devices.
+- Somewhat common electronics, so easy to find.
+- Not affected by temperature, ambient light, sound, etc.
+- Can be installed at a certain height so pets cannot trigger it.
+- Can be easily concealed, because it doesn't need open spaces to operate.
+- If using an array, it's simple and secure to cover a door or a window.
+- Can be set up with mirrors so the beam covers every door/window on every corner.
+
+### Disadvantages
+
+- Requires the placement of TWO devices: a transmitter and a receiver.
+- If any of the two devices are damaged or its position or orientation is altered, they will need to be reinstalled and recalibrated.
+- Installing them is not an easy task, requires some measuring and maybe an extra helping hand.
+- They cannot be deployed quickly, or in a moving scenario (like an automated vehicle), unlike the PIR, ultrasonic and imaging set ups, they require a fixed position.
+- Cannot be used to watch an entire room, only a single spot.
 
 ## Laser rangefinder
+
+Operating in a similar manner to ultrasonic transceivers, these devices emit pulses of light and catch them using an optical device.
+
+### Advantages
+
+- Very high precision, most systems have a precision of more than 95%.
+- Since it's a beam, it can be pointed to the exact spot to measure.
+- Doesn't require more than one device: The emitter and receiver is the same logic board.
+- Isn't affected by ambient light or room noise.
+- Can measure distance.
+
+### Disadvantages
+
+- Extremely expensive, probably even more than the image-based processing even taking into account the additional image processing hardware.
+- Can be jammed by optically overloading the sensor with light.
+- Cannot be used to watch an entire room, only a single spot.
+
+## Glass break detectors
