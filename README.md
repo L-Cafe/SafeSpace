@@ -16,3 +16,5 @@ Developing the most complete and fully open security alarm for home, businesses,
 - Wired and wireless communication options
 - Made with relatively easy to obtain parts
 - Modular and fully customizable: Use only the features you need or want
+- Anti tamper features that trigger the system if sensors or the control unit are moved or manipulated without putting them into maintenance mode
+- (maybe?) Control some parts of a smart home, such as smart lightbulbs or smart TVs
